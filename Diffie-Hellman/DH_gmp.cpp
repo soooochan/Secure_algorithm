@@ -6,7 +6,7 @@ using namespace std;
 // ---- gmp 라이브러리에서 제공하는 함수들의 래퍼(wrapper)함수들 ------
 mpz_class powm(mpz_class base, mpz_class exp, mpz_class mod); // r 에 m^e mod k 저장
 mpz_class urandomm(const mpz_class n);                        //  urandomm 함수를 이용해서 n보다 작은 랜덤값 생성
-int cmp(mpz_class A, mpz_class B);                            //
+int cmp(mpz_class A, mpz_class B);                            // 공유하는 비밀키 계산 
 
 // -----------------------전역변수(공개키)--------------------------
 // RFC7919에서 제공하는 소수p와 생성원 g사용(계산이 효율적이고 안전성은 그대로)

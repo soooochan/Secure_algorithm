@@ -1,28 +1,9 @@
 
-
-1
-
-    자료 2
-
-    3
-
-    A 4
-
-    I 5
-
-    Cyber_LAB 검색
-
-        Cyber_LAB
-
-            김지윤
-
-                김지윤
-    : 생쥐 : 2 : 21
 #include <iostream>
 #include <random>
 #include <gmpxx.h>
 #include <vector>
-      using namespace std;
+using namespace std;
 struct Point
 {
     mpz_class x;
